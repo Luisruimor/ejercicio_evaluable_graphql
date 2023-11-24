@@ -36,7 +36,7 @@ type Mutation {
 Para obtener todas las mascotas o filtrar por raza:
 
 ```graphql
-query Query($breed: String) {
+query Pets($breed: String) {
     pets(breed: $breed) {
         breed
         id
